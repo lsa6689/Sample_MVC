@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmlquery.home">
+	<select id="readMemberIf" resultType="lsh.com.model.home.CLNA001" parameterType="hashMap" timeout="50">
+		SELECT *
+		  FROM CLNA001 M
+		 WHERE M.CLNN = #{CLNN} 
+	</select>
+</mapper>
