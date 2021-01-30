@@ -33,7 +33,7 @@ import lsh.com.model.home.CLNA001;
 
 
 /*
- * 1. 클래스명	: 
+ * 1. 클래스명	: 홈 컨트롤러
  * 2. 파일명	: HelloController.java
  * 3. 패키지명	: lsh.com.app.home
  * 4. 작성자명	: SeungHo
