@@ -60,7 +60,7 @@ public class HomeController {
 		
 		String messege = "";
 		CLNA001 rCln = homeMgr.mainContents("PCLN000001");
-        messege = rCln.getClnNm();
+		messege = rCln.getClnNm();
 		
 		
 		ModelAndView mv = new ModelAndView();
