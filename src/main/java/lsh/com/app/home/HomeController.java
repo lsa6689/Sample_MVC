@@ -68,6 +68,8 @@ public class HomeController {
 		mv.addObject( "messege" , messege );
 		mv.addObject( "members" , rCln );
 		
+		logger.info(" HomeController END!!! ");
+		
 		return mv;
 	}
 
